@@ -42,7 +42,7 @@ const Design = () => {
        </Box>
 
        <Box display={'flex'} justifyContent={"center"}>
-       <ScrollIntoView selector="#home" ><Link borderRadius={'10px'} mb={'50px'} mt={'100px'} mx={'8'} fontWeight={'normal'} bg={'#7C7BF8'} p={'10px'}>Click Test Scroll effect back to top!</Link></ScrollIntoView>
+       <ScrollIntoView smooth={true} selector="#home" ><Link borderRadius={'10px'} mb={'50px'} mt={'100px'} mx={'8'} fontWeight={'normal'} bg={'#7C7BF8'} p={'10px'}>Click Test Scroll effect back to top!</Link></ScrollIntoView>
        </Box>
     </div>
   )

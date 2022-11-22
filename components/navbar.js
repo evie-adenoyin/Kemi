@@ -5,6 +5,7 @@ import {
     Link
  } from '@chakra-ui/react'
  import ScrollIntoView from 'react-scroll-into-view'
+ 
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
             <Box>
                 <Box display={'flex'}>
                     <ScrollIntoView selector="#home"><Link mx={'8'} fontWeight={'normal'}>Home</Link></ScrollIntoView>
-                    <ScrollIntoView selector="#design"><Link mx={'8'} fontWeight={'normal'}>Design</Link></ScrollIntoView>
+                    <ScrollIntoView smooth={true} selector="#design"><Link mx={'8'} fontWeight={'normal'}>Design</Link></ScrollIntoView>
                     <ScrollIntoView selector="#casestudy"><Link mx={'8'} fontWeight={'normal'}>Case Study</Link></ScrollIntoView>
                     <ScrollIntoView selector="#about"><Link mx={'8'} fontWeight={'normal'}>About</Link></ScrollIntoView>
                     <ScrollIntoView selector="#media"><Link mx={'8'} fontWeight={'normal'}>Media</Link></ScrollIntoView>
