@@ -20,6 +20,11 @@ span{
   /* background-color: pink; */
 }
 
+.designgroup{
+  background: linear-gradient(165.23deg, rgba(255, 255, 255, 0.32) 19.6%, rgba(217, 143, 209, 0.172229) 33.31%, rgba(39, 158, 213, 0.0928) 58.87%, rgba(140, 176, 170, 0.0928) 74.37%);
+  padding: 0 -200px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

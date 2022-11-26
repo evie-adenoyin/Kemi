@@ -7,10 +7,16 @@ import {
     Center
  } from '@chakra-ui/react'
  import ScrollIntoView from 'react-scroll-into-view'
+ import Image from 'next/image'
+ import sunglo from '../public/Screenshot (190) 1.svg'
+ import gavasoft from '../public/Screenshot (192) 1.svg'
+ import magenta from '../public/Screenshot (193) 1.svg'
+ import sunglosignup from '../public/Screenshot (194) 1.svg'
 
 const Design = () => {
   return (
     <div id='design'>
+        <Box>
        <Box my={{sm:'3'}}>
 
         <Box>
@@ -19,8 +25,8 @@ const Design = () => {
         get inspired and communicate you thought with me..</Text></Center>
         </Box>
 
-        <Box mb={'200px'}>
-            <Box display={{sm:'flex'}} justifyContent={'center'} >
+        <Box mb={'80px'}>
+            <Box display={{sm:'flex'}} justifyContent={'center'}>
                 <Box mx={{sm:'30px'}}  px={{sm:'40px'}} py={{sm:'8px'}} borderRadius={{sm:'5px'}} bg={'#F9F9F9'} border={'1px'} borderColor={'#DCE5E8'}><Text>Login page</Text></Box>
                 <Box mx={{sm:'30px'}}  px={{sm:'40px'}} py={{sm:'8px'}} borderRadius={{sm:'5px'}} bg={'#F9F9F9'} border={'1px'} borderColor={'#DCE5E8'}><Text>Sign up page</Text></Box>
                 <Box mx={{sm:'30px'}}  px={{sm:'40px'}} py={{sm:'8px'}} borderRadius={{sm:'5px'}} bg={'#F9F9F9'} border={'1px'} borderColor={'#DCE5E8'}><Text>Landing page</Text></Box>
@@ -41,9 +47,39 @@ const Design = () => {
         </Box>
        </Box>
 
-       <Box display={'flex'} justifyContent={"center"}>
+
+        <Box className='designgroup' px={{sm:'54', base:'4'}}>
+
+            <Box display={{sm:'flex'}} gap={10} my={{sm:'8'}}>
+                <Box>
+                    <Box><Image src={sunglo} alt='sunglo' /></Box>
+                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Sungo Sign in page, <span>April - August 2022</span></Text></Box>
+                </Box>
+                <Box>
+                    <Box><Image src={gavasoft} alt='sunglo' /></Box>
+                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Gavasoft Sign in page, <span>February 2021</span></Text></Box>
+                </Box> 
+            </Box>
+
+
+            <Box display={{sm:'flex'}} gap={10} my={{sm:'8'}}>
+                <Box>
+                    <Box><Image src={magenta} alt='sunglo' /></Box>
+                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Magenta Sign in page, <span>October 2022</span></Text></Box>
+                </Box>
+                <Box>
+                    <Box><Image src={sunglosignup} alt='sunglo' /></Box>
+                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Sunglo Sign up page, <span>April - August 2022</span></Text></Box>
+                </Box> 
+            </Box>
+           
+
+        </Box>
+        </Box>
+
+       {/* <Box display={'flex'} justifyContent={"center"}>
        <ScrollIntoView smooth={true} selector="#home" ><Link borderRadius={'10px'} mb={'50px'} mt={'100px'} mx={'8'} fontWeight={'normal'} bg={'#7C7BF8'} p={'10px'}>Click Test Scroll effect back to top!</Link></ScrollIntoView>
-       </Box>
+       </Box> */}
     </div>
   )
 }

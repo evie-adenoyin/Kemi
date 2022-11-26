@@ -4,7 +4,7 @@ import Navbar from './navbar'
 
 const Layout = ({children}) => {
   return (
-    <Box  px={{sm:'50', base:'4'}} pb={'100px'}>
+    <Box  pb={'100px'}>
         <Navbar />
         {children}
     </Box>

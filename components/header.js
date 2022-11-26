@@ -6,14 +6,14 @@ import {
     Heading
  } from '@chakra-ui/react'
  import Image from 'next/image'
- import Phone from '../public/Phone.png'
+ import Phone from '../public/Phone.svg'
  import { motion } from "framer-motion"
  import { FaMapMarker } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div>
-        <Box display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'7rem'}}>
+    <div >
+        <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'7rem'}}>
             <Box>
                 <motion.div
                         initial={{ opacity: 0, scale: 0.5 }}
@@ -27,7 +27,8 @@ const Header = () => {
                         </svg>
                         </Box>
                         <Heading fontSize={{sm:'5xl'}}>Hello There<span>!</span></Heading>
-                        <Text w={{sm:'55%'}} fontSize={{sm:'xl'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX</span> designer passionate about creating a well structured user experience, and business growth.</Text>
+                        <Text pl={{sm:'10'}} w={{sm:'55%'}} fontSize={{sm:'xl'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX</span> 
+                        designer passionate about creating a well structured user experience, and business growth.</Text>
                     </Box>
                 </motion.div>
                 <Box>
