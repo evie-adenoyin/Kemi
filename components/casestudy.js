@@ -14,7 +14,7 @@ import {
 
 const CaseStudy = () => {
   return (
-    <div>
+    <div id='casestudy'>
         <Box>
             <Box mt={{sm:'20'}}>
                 <Box>
