@@ -26,8 +26,8 @@ const Header = () => {
                             <circle opacity="0.25" cx="50" cy="50" r="50" fill="#D1C4D7"/>
                         </svg>
                         </Box>
-                        <Heading fontSize={{sm:'5xl'}}>Hello There<span>!</span></Heading>
-                        <Text pl={{sm:'10'}} w={{sm:'55%'}} fontSize={{sm:'xl'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX</span> 
+                        <Heading fontSize={{sm:'5xl'}} fontWeight={{sm:'semibold'}}>Hello There<span>!</span></Heading>
+                        <Text bg={'red'} pl={{sm:'10'}} w={{sm:'68%'}} fontSize={{sm:'25px'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX </span> 
                          designer passionate about creating a well structured user experience, and business growth.</Text>
                     </Box>
                 </motion.div>
@@ -57,7 +57,7 @@ const Header = () => {
                         </svg>
                     </motion.div>
                     </Box>
-                    <Box pr={{sm:'20'}}> <Image src={Phone} alt='logo' width={420}/></Box>
+                    <Box pr={{sm:'20'}}> <Image src={Phone} alt='logo' width={500}/></Box>
                     <Box pos={'absolute'} top={{sm:'10rem'}} right={{sm:'10rem'}} zIndex={'-1'}>
                     <motion.div animate={{ x: 180 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
