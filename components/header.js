@@ -27,7 +27,7 @@ const Header = () => {
                         </svg>
                         </Box>
                         <Heading fontSize={{sm:'5xl'}} fontWeight={{sm:'semibold'}}>Hello There<span>!</span></Heading>
-                        <Text bg={'red'} pl={{sm:'10'}} w={{sm:'68%'}} fontSize={{sm:'25px'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX </span> 
+                        <Text pl={{sm:'10'}} w={{sm:'68%'}} fontSize={{sm:'25px'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX </span> 
                          designer passionate about creating a well structured user experience, and business growth.</Text>
                     </Box>
                 </motion.div>
