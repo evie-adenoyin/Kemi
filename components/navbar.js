@@ -9,7 +9,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div id='home'>
+    <div>
         <Box pos={'fixed'} w={'100%'} top={'0'} bg={'white'} zIndex={1}>
         <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} py={{sm:'10'}}>
             <Box>

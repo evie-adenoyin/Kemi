@@ -12,7 +12,7 @@ import {
 
 const Header = () => {
   return (
-    <div >
+    <div  id='home'>
         <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'16rem'}}>
             <Box>
                 <motion.div
