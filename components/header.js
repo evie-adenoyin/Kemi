@@ -13,7 +13,7 @@ import {
 const Header = () => {
   return (
     <div >
-        <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'7rem'}}>
+        <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'16rem'}}>
             <Box>
                 <motion.div
                         initial={{ opacity: 0, scale: 0.5 }}
@@ -28,7 +28,7 @@ const Header = () => {
                         </Box>
                         <Heading fontSize={{sm:'5xl'}}>Hello There<span>!</span></Heading>
                         <Text pl={{sm:'10'}} w={{sm:'55%'}} fontSize={{sm:'xl'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX</span> 
-                        designer passionate about creating a well structured user experience, and business growth.</Text>
+                         designer passionate about creating a well structured user experience, and business growth.</Text>
                     </Box>
                 </motion.div>
                 <Box>
