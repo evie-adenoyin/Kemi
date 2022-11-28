@@ -9,6 +9,7 @@ import {
  import Phone from '../public/Phone.svg'
  import { motion } from "framer-motion"
  import { FaMapMarker } from 'react-icons/fa'
+ import ImageHeader from "../public/IMG_0227 1.jpg"
 
 const Header = () => {
   return (
@@ -57,7 +58,7 @@ const Header = () => {
                         </svg>
                     </motion.div>
                     </Box>
-                    <Box pr={{sm:'20'}} pos={'relative'} zIndex={'2'}> <Image src={Phone} alt='logo' width={500}/></Box>
+                    <Box pr={{sm:'20'}} pos={'relative'} zIndex={'2'}> <Image src={ImageHeader} alt='logo' width={500}/></Box>
                     <Box pos={'absolute'} top={{sm:'15rem'}} right={{sm:'10rem'}} zIndex={'1'}>
                     <motion.div animate={{ x: 180 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
