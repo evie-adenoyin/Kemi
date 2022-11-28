@@ -35,7 +35,7 @@ const Header = () => {
                 </motion.div>
                 <Box>
                     <Box  display={{sm:'flex'}} pos={{sm:'relative'}} mt={'10'}>
-                        <Box gap={3} borderRadius={{sm:'10px'}} bg={'#B7B7FF'} py={{sm:'10px'}} px={{sm:'24px'}} display={{sm:'flex'}} justifyContent={'space-between'} pos={{sm:'relative'}}>
+                        <Box gap={3} borderRadius={{sm:'10px'}} bg={'#B7B7FF'} py={{sm:'10px'}} px={{sm:'24px'}} display={{sm:'flex'}} justifyContent={'space-between'} pos={{sm:'relative'}} zIndex={{sm:'2'}}>
                             <Box mt={{sm:'1'}}><FaMapMarker /></Box>
                             <Box><Text>Lagos, Nigeria</Text></Box>
                         </Box>
@@ -59,7 +59,7 @@ const Header = () => {
                     </motion.div>
                     </Box>
                     <Box pr={{sm:'20'}} pos={'relative'} zIndex={'2'}> <Image src={ImageHeader} alt='logo' width={500}/></Box>
-                    <Box pos={'absolute'} top={{sm:'15rem'}} right={{sm:'10rem'}} zIndex={'1'}>
+                    <Box pos={'absolute'} top={{sm:'20rem'}} right={{sm:'9rem'}} zIndex={'1'}>
                     <motion.div animate={{ x: 180 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.28" cx="74.5" cy="74.5" r="74.5" fill="#B7B7FF"/>
