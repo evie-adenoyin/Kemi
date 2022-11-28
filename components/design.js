@@ -31,9 +31,9 @@ import {
 
 const Design = () => {
   return (
-    <div id='design'>
-        <Box>
-       <Box my={{sm:'3'}}>
+    <div id=''>
+        <Box pt={{sm:'20'}} id='design'>
+       <Box my={{sm:'3'}} mt={{sm:'10'}}>
 
         <Box>
         <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}>DESIGN</Text></Center>
@@ -69,7 +69,7 @@ const Design = () => {
             <Box display={{sm:'flex'}} gap={10} my={{sm:'8'}}>
                 <Box>
                     <Box><Image src={sunglo} alt='sunglo' /></Box>
-                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Sungo Sign in page, <span>April - August 2022</span></Text></Box>
+                    <Box my={{sm:'3'}}><Text fontSize={{sm:'sm'}} fontWeight={{sm:'semibold'}}>Sunglo Sign in page, <span>April - August 2022</span></Text></Box>
                 </Box>
                 <Box>
                     <Box><Image src={gavasoft} alt='sunglo' /></Box>

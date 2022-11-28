@@ -4,18 +4,18 @@ import {
     Text,
     Link,
     Heading,
-    Center
+    Center,
  } from '@chakra-ui/react'
  import ScrollIntoView from 'react-scroll-into-view'
  import Image from 'next/image'
- import case1 from '../public/Group 5360.png'
+ import case1 from '../public/Group 5360.svg'
  import case2 from '../public/Group 5361.svg'
  import case3 from '../public/Group 5362.svg'
 
 const CaseStudy = () => {
   return (
     <div id='casestudy'>
-        <Box>
+        <Box pt={{sm:'10'}}>
             <Box mt={{sm:'20'}}>
                 <Box>
                 <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}>Case Study</Text></Center>

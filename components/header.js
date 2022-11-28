@@ -14,13 +14,13 @@ const Header = () => {
   return (
     <div  id='home'>
         <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'16rem'}}>
-            <Box>
+            <Box mt={{sm:'14rem'}}>
                 <motion.div
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
                     >
-                    <Box pos={{sm:'relative'}} mt={{sm:'-2rem'}}>
+                    <Box pos={{sm:'relative'}}>
                         <Box pos={{sm:'absolute'}} zIndex={'-1'} top={{sm:'-12'}} left={'-8'}>
                         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle opacity="0.25" cx="50" cy="50" r="50" fill="#D1C4D7"/>
@@ -47,9 +47,8 @@ const Header = () => {
                 </Box>
             </Box>
 
-
-            <Box pos={'relative'} >
-               <Box mt={'-6rem'}>
+            <Box pos={'relative'} mt={{sm:'10rem'}}>
+               <Box>
                     <Box pos={'absolute'} zIndex={'-1'}>
                     <motion.div animate={{ x: -140 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +57,7 @@ const Header = () => {
                     </motion.div>
                     </Box>
                     <Box pr={{sm:'20'}}> <Image src={Phone} alt='logo' width={500}/></Box>
-                    <Box pos={'absolute'} top={{sm:'10rem'}} right={{sm:'10rem'}} zIndex={'-1'}>
+                    <Box pos={'absolute'} top={{sm:'15rem'}} right={{sm:'10rem'}} zIndex={'-1'}>
                     <motion.div animate={{ x: 180 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.28" cx="74.5" cy="74.5" r="74.5" fill="#B7B7FF"/>

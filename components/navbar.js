@@ -23,7 +23,7 @@ const Navbar = () => {
                     <ScrollIntoView selector="#home"><Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>Home</Link></ScrollIntoView>
                     <ScrollIntoView smooth={true} selector="#design"><Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>Design</Link></ScrollIntoView>
                     <ScrollIntoView selector="#casestudy"><Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>Case Study</Link></ScrollIntoView>
-                    <ScrollIntoView selector="#about"><Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>About</Link></ScrollIntoView>
+                    <Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>About</Link>
                     <ScrollIntoView selector="#media"><Link mx={'8'} fontWeight={'semibold'} fontSize={{sm:'large'}}>Media</Link></ScrollIntoView>
                 </Box>
             </Box>
