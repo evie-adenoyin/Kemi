@@ -9,7 +9,7 @@ import {
  import Phone from '../public/Phone.svg'
  import { motion } from "framer-motion"
  import { FaMapMarker } from 'react-icons/fa'
- import ImageHeader from "../public/IMG_0227 1.jpg"
+ import ImageHeader from "../public/App mockup.svg"
 
 const Header = () => {
   return (
@@ -39,7 +39,7 @@ const Header = () => {
                             <Box mt={{sm:'1'}}><FaMapMarker /></Box>
                             <Box><Text>Lagos, Nigeria</Text></Box>
                         </Box>
-                        <Box borderRadius={{sm:'10px'}} bg={'#F3F3F3'} py={{sm:'10px'}} pl={{sm:'30px'}} pr={{sm:'20px'}} display={{sm:'flex'}} pos={{sm:'relative'}} zIndex={{sm:'-1'}} left={{sm:'-22px'}}>
+                        <Box borderRadius={{sm:'10px'}} bg={'#F3F3F3'} py={{sm:'10px'}} pl={{sm:'30px'}} pr={{sm:'20px'}} display={{sm:'flex'}} pos={{sm:'relative'}} zIndex={{sm:'1'}} left={{sm:'-22px'}}>
                             <Box><Text color={'#00000066'}>Open to relocate</Text></Box>
                         </Box>
                     </Box>
