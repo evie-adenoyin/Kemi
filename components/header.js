@@ -21,11 +21,12 @@ const Header = () => {
                         transition={{ duration: 0.5 }}
                     >
                     <Box pos={{sm:'relative'}}>
-                        <Box pos={{sm:'absolute'}} zIndex={'-1'} top={{sm:'-12'}} left={'-8'}>
+                        <Box pos={{sm:'absolute'}} zIndex={'1'} top={{sm:'-12'}} left={'-8'}>
                         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle opacity="0.25" cx="50" cy="50" r="50" fill="#D1C4D7"/>
                         </svg>
                         </Box>
+                        
                         <Heading fontSize={{sm:'5xl'}} fontWeight={{sm:'semibold'}}>Hello There<span>!</span></Heading>
                         <Text pl={{sm:'10'}} w={{sm:'68%'}} fontSize={{sm:'25px'}} my={{sm:'6'}}>My name is <span>Nicole Runo</span> and I am a <span>UI/UX </span> 
                          designer passionate about creating a well structured user experience, and business growth.</Text>
@@ -49,15 +50,15 @@ const Header = () => {
 
             <Box pos={'relative'} mt={{sm:'10rem'}}>
                <Box>
-                    <Box pos={'absolute'} zIndex={'-1'}>
+                    <Box pos={'absolute'} zIndex={'1'}>
                     <motion.div animate={{ x: -140 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.28" cx="74.5" cy="74.5" r="74.5" fill="#D9D9D9"/>
                         </svg>
                     </motion.div>
                     </Box>
-                    <Box pr={{sm:'20'}}> <Image src={Phone} alt='logo' width={500}/></Box>
-                    <Box pos={'absolute'} top={{sm:'15rem'}} right={{sm:'10rem'}} zIndex={'-1'}>
+                    <Box pr={{sm:'20'}} pos={'relative'} zIndex={'2'}> <Image src={Phone} alt='logo' width={500}/></Box>
+                    <Box pos={'absolute'} top={{sm:'15rem'}} right={{sm:'10rem'}} zIndex={'1'}>
                     <motion.div animate={{ x: 180 }} transition={{ duration: 1 }}>
                         <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.28" cx="74.5" cy="74.5" r="74.5" fill="#B7B7FF"/>

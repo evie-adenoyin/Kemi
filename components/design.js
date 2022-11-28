@@ -28,6 +28,8 @@ import {
  import ecommerce2 from '../public/Screenshot (229) 1.svg'
  import ecommerce3 from '../public/IMG_0199 1.svg'
  import saly from '../public/Saly-5.svg'
+ import borderblack from '../public/designsblack.svg'
+ import bordergray from '../public/designsgray.svg'
 
 const Design = () => {
   return (
@@ -37,6 +39,10 @@ const Design = () => {
 
         <Box>
         <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}>DESIGN</Text></Center>
+        <Box pos={'absolute'} right={'38.7rem'} display={'flex'} mt={'-1'}>
+            <Box ><Image src={borderblack} alt='black'/></Box>
+            <Box ml={{sm:'-55px'}}><Image src={bordergray} alt='black'/></Box>
+        </Box>
         <Center><Text fontSize={{sm:'xl'}} my={{sm:'5'}}>Below are screens from projects i designed using figma. So explore, 
         get inspired and communicate you thought with me..</Text></Center>
         </Box>

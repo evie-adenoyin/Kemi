@@ -10,7 +10,7 @@ import {
 const Navbar = () => {
   return (
     <div>
-        <Box pos={'fixed'} w={'100%'} top={'0'} bg={'white'} zIndex={1}>
+        <Box pos={'fixed'} w={'100%'} top={'0'} bg={'white'} zIndex={5}>
         <Box px={{sm:'50', base:'4'}} display={{sm:'flex'}} justifyContent={'space-between'} py={{sm:'10'}}>
             <Box>
             <svg width="45" height="30" viewBox="0 0 45 30" fill="none" xmlns="http://www.w3.org/2000/svg">
