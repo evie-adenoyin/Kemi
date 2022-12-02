@@ -31,6 +31,9 @@ span{
   margin-top: -15rem;
 }
 
+#about{
+  background:  linear-gradient(173.48deg, rgba(255, 255, 255, 0.32) 15.17%, rgba(243, 243, 243, 0.32) 30.78%, rgba(39, 158, 213, 0.0928) 60.59%, rgba(207, 224, 221, 0.0928) 79.94%);
+}
 
 @media (prefers-color-scheme: dark) {
   html {

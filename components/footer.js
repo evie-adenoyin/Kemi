@@ -5,6 +5,7 @@ import footerlogo from '../public/Group 1.svg'
 import ScrollIntoView from 'react-scroll-into-view'
 import saly from '../public/Saly-22.svg'
 import line from '../public/Line 1.svg'
+import emoji from '../public/image 121.svg'
 
 const textdecoration = {textDecoration:'none'}
 
@@ -12,18 +13,21 @@ const Footer = () => {
   return (
     <div id='footer'>
         <Box bg={'red'}>
-        <Box bg={'#7C7BF8'}   mb={{sm:'-110px'}} mt={{sm:'-0.02px'}}>
-            <Box px={{sm:'50', base:'4'}} py={{sm:'10'}}>
+        <Box bg={'#7C7BF8'} mb={{sm:'-110px'}} mt={{sm:'-1'}}>
+            <Box px={{sm:'50', base:'4'}} py={{sm:'5'}}>
                <Box>
                     <Box display={{sm:'flex'}} justifyContent={'space-between'}>
                         <Image src={footerlogo} alt='logo' />
-                        <Box><Link fontSize={{sm:'sm'}} bg={'white'} py={'3'} color={'gray'} px={{sm:'6'}} borderRadius={'8px'}>Say Hello! &#128526;</Link></Box>
+                        <Box display={{sm:'flex'}} bg={'white'} py={'3'} color={'white'} px={{sm:'6'}} borderRadius={'8px'} gap={3}>
+                            <Link fontSize={{sm:'sm'}} color={'#7C7BF8'}>Say Hello!</Link>
+                            <Image src={emoji} alt='emoji'/>
+                        </Box>
                     </Box>
 
-                    <Box my={{sm:'10'}} display={{sm:'flex'}} justifyContent={'space-between'}>
+                    <Box my={{sm:'5'}} display={{sm:'flex'}} justifyContent={'space-between'}>
                         <Box>
                             <Text color={'#5F08CD'} fontWeight={'semibold'} fontSize={{sm:'xl'}}>Contact Me</Text>
-                            <Box color={'white'} lineHeight={'10'} mt={{sm:'5'}}>
+                            <Box color={'white'} lineHeight={'8'} mt={{sm:'5'}}>
                             <Text>08160304426</Text>
                             <Text>nicoleeferigho@gmail.com</Text>
                             </Box>
@@ -31,7 +35,7 @@ const Footer = () => {
                         <Box>
                         <Text color={'#5F08CD'} fontWeight={'semibold'} fontSize={{sm:'xl'}}>Portfolio Content</Text>
                             <Box >
-                            <Box color={'white'} lineHeight={'10'} mt={{sm:'5'}}>
+                            <Box color={'white'} lineHeight={'8'} mt={{sm:'5'}}>
                                 <ScrollIntoView selector="#home"><Link _hover={textdecoration}>Home</Link></ScrollIntoView>
                                 <ScrollIntoView smooth={true} selector="#design"><Link _hover={textdecoration}>Design</Link></ScrollIntoView>
                                 <ScrollIntoView selector="#casestudy"><Link _hover={textdecoration}>Case Study</Link></ScrollIntoView>
@@ -43,7 +47,7 @@ const Footer = () => {
                         <Box>
                         <Text color={'#5F08CD'} fontWeight={'semibold'} fontSize={{sm:'xl'}}>Case Study</Text>
                             <Box >
-                            <Box color={'white'} lineHeight={'10'} mt={{sm:'5'}}>
+                            <Box color={'white'} lineHeight={'8'} mt={{sm:'5'}}>
                                 <ScrollIntoView selector="#desing"><Link _hover={textdecoration}>Gavasoft</Link></ScrollIntoView>
                                 <ScrollIntoView smooth={true} selector="#design"><Link _hover={textdecoration}>Sunglo</Link></ScrollIntoView>
                                 <ScrollIntoView selector="#desing"><Link _hover={textdecoration}>Magenta</Link></ScrollIntoView>
@@ -55,7 +59,7 @@ const Footer = () => {
                         <Box>
                         <Text color={'#5F08CD'} fontWeight={'semibold'} fontSize={{sm:'xl'}}>Soft Skill</Text>
                             <Box >
-                            <Box color={'white'} lineHeight={'10'} mt={{sm:'5'}}>
+                            <Box color={'white'} lineHeight={'8'} mt={{sm:'5'}}>
                                 <Text>Communication</Text>
                                <Text>Team player</Text>
                                 <Text>Strategic thinker</Text>
@@ -71,7 +75,7 @@ const Footer = () => {
                         </Box>
                     </Box>
                     
-                    <Box display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'-71px'}}>
+                    <Box display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'-71px'}} mb={'5'}>
                         <Box>
                             <Image src={line} alt='line' />
                         </Box>

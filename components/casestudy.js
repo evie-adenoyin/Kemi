@@ -13,6 +13,7 @@ import {
  import case3 from '../public/Group 5362.svg'
  import borderblack from '../public/casestudyblack.svg'
 import bordergray from '../public/casestudygray.svg'
+import casestudy from '../public/Group 39.svg'
 
 const CaseStudy = () => {
   return (
@@ -20,11 +21,11 @@ const CaseStudy = () => {
         <Box pt={{sm:'10'}}>
             <Box mt={{sm:'20'}}>
                 <Box>
-                <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}>Case Study</Text></Center>
-                <Box pos={'absolute'} right={'39.2rem'} display={'flex'} mt={'-1'}>
+                <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}><Image src={casestudy} alt='casestudy' /></Text></Center>
+                {/* <Box pos={'absolute'} right={'39.2rem'} display={'flex'} mt={'-1'}>
                     <Box ><Image src={borderblack} alt='black'/></Box>
                     <Box ml={{sm:'-55px'}}><Image src={bordergray} alt='black'/></Box>
-                </Box>
+                </Box> */}
                 <Center><Text fontSize={{sm:'xl'}} my={{sm:'5'}}>Below are screens from projects I designed using figma. <span>So</span> explore, get inspired and communicate you thought with me..</Text></Center>
                 </Box>
             </Box>

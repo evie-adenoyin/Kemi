@@ -7,6 +7,7 @@ import Design from '../components/design'
 import CaseStudy from '../components/casestudy'
 import Footer from '../components/footer'
 import Media from '../components/media'
+import About from '../components/about'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Header />
         <Design />
         <CaseStudy />
+        <About />
         <Media />
         <Footer />
       </Box>

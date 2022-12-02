@@ -30,6 +30,7 @@ import {
  import saly from '../public/Saly-5.svg'
  import borderblack from '../public/designsblack.svg'
  import bordergray from '../public/designsgray.svg'
+ import design from '../public/Group 4.svg'
 
 const Design = () => {
   return (
@@ -38,11 +39,11 @@ const Design = () => {
        <Box my={{sm:'3'}} mt={{sm:'10'}}>
 
         <Box>
-        <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}>DESIGN</Text></Center>
-        <Box pos={'absolute'} right={'38.7rem'} display={'flex'} mt={'-1'}>
+        <Center><Text fontWeight={{sm:'semibold'}} fontSize={{sm:'4xl'}}><Image src={design} alt='media'/></Text></Center>
+        {/* <Box pos={'absolute'} right={'38.7rem'} display={'flex'} mt={'-1'}>
             <Box ><Image src={borderblack} alt='black'/></Box>
             <Box ml={{sm:'-55px'}}><Image src={bordergray} alt='black'/></Box>
-        </Box>
+        </Box> */}
         <Center><Text fontSize={{sm:'xl'}} my={{sm:'5'}}>Below are screens from projects i designed using figma. So explore, 
         get inspired and communicate you thought with me..</Text></Center>
         </Box>
