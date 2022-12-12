@@ -9,6 +9,7 @@ import Footer from '../components/footer'
 import Media from '../components/media'
 import About from '../components/about'
 
+
 export default function Home() {
   return (
     <div>

@@ -71,11 +71,11 @@ const Footer = () => {
                         </Box>
                         
                         <Box mr={{sm:'-10'}} pt={{sm:'8'}}>
-                                <Box pos={'relative'}><Image src={saly} alt="saly" /></Box>
+                                <Box pos={'relative'}><Image src={saly} alt="saly" width={300}/></Box>
                         </Box>
                     </Box>
                     
-                    <Box display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'-71px'}} mb={'5'}>
+                    <Box display={{sm:'flex'}} justifyContent={'space-between'} mt={{sm:'-50px'}} mb={'0'}>
                         <Box>
                             <Image src={line} alt='line' />
                         </Box>
